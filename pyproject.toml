@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "flask-tutorial"
+name = "flask-meme-page"
 version = "0.1.0"
 description = ""
 authors = ["Arthur Nunes <arthurnunesc@proton.me>"]
 readme = "README.md"
-packages = [{include = "flask_tutorial"}]
+packages = [{include = "flask_meme_page"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
