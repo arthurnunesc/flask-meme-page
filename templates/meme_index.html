@@ -9,6 +9,14 @@
         body {
             background-color: #000000;
             color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            max-height: 70vh;
         }
     </style>
     <title>Document</title>
@@ -17,7 +25,7 @@
 <body>
     <h1>A website to gather some memes!!</h1>
     <p>Here is your meme! This will refresh in 30 seconds.</p>
-    <p><img src="{{meme_pic}}" alt=""></p>
+    <img src="{{meme_pic}}" alt="">
     <p>Current subreddit: r/{{subreddit}}</p>
 </body>
 

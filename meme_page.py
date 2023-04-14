@@ -1,8 +1,8 @@
 #!/bin/python
 
 import json
-from flask import Flask, render_template
 import requests
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -21,4 +21,4 @@ def index():
     return render_template("meme_index.html", meme_pic=meme_pic, subreddit=subreddit)
 
 
-app.run(host="0.0.0.0", port=5001)
+app.run(host="0.0.0.0", port=8000)
